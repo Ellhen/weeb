@@ -1,0 +1,46 @@
+/* Button */
+
+.button {
+    border-radius: 8px;
+    background-color: #9333ea;
+
+	transition: all o.3s;
+
+    padding-inline: 40px;
+    padding-block: 16px;
+
+    text-align: center;
+
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.button:hover{
+	background-color: #6b24ae;
+}
+.button--mini {
+    font-size: 16px;
+    padding-inline: 28px;
+    padding-block: 12px;
+    line-height: 1.5;
+}
+.button--transparent {
+	background-color: transparent;
+}
+.button--transparent:hover {
+	
+
+}
+.button--white-border {
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding-block: 14px;
+
+}
+.button--white-border:hover {
+	border: 2px solid #6b24ae;
+;
+}
